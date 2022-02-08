@@ -11,7 +11,8 @@ if "add" in sys.argv:
 
 if "message" in sys.argv:
   print("Commiting")
-  git_commit = "git commit -m '" + sys.argv[3] + "'"
+  git_commit = 'git commit -m "' + str(sys.argv[3]) + '"'
+  print('commit:', git_commit)
   os.system(git_commit)
 
 if "push" in sys.argv:
