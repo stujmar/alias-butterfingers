@@ -21,3 +21,4 @@ if "push" in sys.argv:
   os.system(git_push)
 
 
+# python alias.py add message "your commit message here" push
