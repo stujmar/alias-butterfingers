@@ -25,5 +25,5 @@ os.system(stage_unstage)
 
 # python alias.py add message "your commit message here" push
 
-# GIT_COMMITTER_DATE="Tues Feb 8 14:00 2022 +0100" git commit --amend --no-edit
 # git commit --date='2022-02-08 12:12:45 -m 'test commit message'
+# GIT_COMMITTER_DATE="Tues Feb 8 14:00 2022 +0100" git commit --amend --no-edit
