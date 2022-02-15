@@ -23,6 +23,13 @@ import sys
 stage_unstage = "git add . && git reset"
 os.system(stage_unstage)
 
+stage = "git add ."
+os.system(stage)
+commit = 'git commit -m "' + str(sys.argv[0]) + '"'
+os.system(commit)
+push = "git push"
+os.system(push)
+
 # python alias.py add message "your commit message here" push
 
 # git commit --date='2022-02-08 12:12:45 -m 'test commit message'
