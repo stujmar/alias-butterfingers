@@ -30,7 +30,8 @@ os.system(commit)
 push = "git push"
 os.system(push)
 
-# python alias.py add message "your commit message here" push
+# Try running the following command in the terminal
+# python commit.py "your commit message here"
 
 # git commit --date='2022-02-22 12:12:45 -m 'test commit message'
 # git commit --amend --date="2022-02-22 16:55:55"
